@@ -1,0 +1,7 @@
+{
+	"name": "JS-Playground-Hello-World",
+	"version": "0.0.1",
+	"dependencies": {
+		"googleapis": "^37.1.0"
+	}
+}
