@@ -3,6 +3,9 @@ This reponse code then is used to for e.g. display a status message of the ping 
 
 
 start with for e.g. 
+
 npm init
+
 npm install minimist 
+
 Npm remove package-name
