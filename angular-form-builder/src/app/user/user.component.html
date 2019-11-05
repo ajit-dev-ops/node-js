@@ -1,0 +1,13 @@
+<p>
+  user works! <br/>
+  {{ user | json }}
+</p>
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()" novalidate>
+  <div formGroupName="user" novalidate>
+    user-id: <input formControlName="userId" /> <br/>
+    another-id: <input formControlName="id" /> <br/>
+    title: <input formControlName="title" /> 
+  </div>
+  text: <input formControlName="text" /> 
+  <button type="submit" [disabled]="userForm.pristine">Save</button>
+</form>
